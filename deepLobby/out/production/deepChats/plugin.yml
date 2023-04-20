@@ -1,0 +1,43 @@
+name: deepLobby
+version: 1.0
+main: chernoblyu.Main
+author: Fp
+commands:
+  tell:
+    description: "Converse com a pessoa desejada em um chat privado"
+    usage: "/tell <player> <message>"
+    permission: "deep.tell"
+  r:
+    description: "Responda a pessoa que você interagiu por último no chat privado"
+    usage: "/r <message>"
+    permission: "deep.reply"
+  reply:
+    description: "Responda a pessoa que você interagiu por último no chat privado"
+    usage: "/reply <message>"
+    permission: "deep.reply"
+  tag:
+    description: "Utilize a tag que você quiser"
+    usage: "/tag <tag>"
+  tags:
+    description: "Mostra todas as tags do servidor"
+    usage: "/tags"
+  setgroup:
+    description: "Determine o rank de alguém do servidor"
+    usage: "/setgroup <player> <rank>"
+  groups:
+    description: "Veja todos os ranks do servidor"
+    usage: "/groups"
+  cc:
+    description: "Limpa o chat todo"
+    usage: "/cc"
+    permission: "deep.cc"
+  help:
+    description: "Ajuda com os comandos do servidor"
+    usage: "/help"
+  plugins:
+    description: "Plugins do servidor"
+    usage: "/plugins"
+  pl:
+    description: "Plugins do servidor"
+    usage: "/pl"
+
